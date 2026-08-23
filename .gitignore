@@ -1,0 +1,17 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local secrets and environment files
+.env
+.env.*
+
+# Tooling output (this repository intentionally has no build)
+node_modules/
+.next/
+.turbo/
+coverage/
+dist/
+build/
+*.log
