@@ -1,0 +1,9 @@
+{
+  "label": "Spaces",
+  "order": [
+    "icloud"
+  ],
+  "labels": {
+    "icloud": "iCloud"
+  }
+}

@@ -7,8 +7,11 @@
   currently registered scaffolds are `docs/v0` and `docs/v1`.
 - Use kebab-case for Markdown filenames and directories. `index.md` is the
   landing article for its directory; `meta.json` is directory navigation data.
-- Frontmatter may contain only `title`, `description`, `image`, `indexable`, and
-  `keywords`, with the types documented in `README.md`.
+- Frontmatter may include the supported presentation and SEO fields `title`,
+  `description`, `image`, `indexable`, and `keywords`, with the types documented
+  in `README.md`. Legacy or source metadata such as `created` and `updated` may
+  remain in migrated notes and is ignored by the web app. Invalid values for
+  supported fields remain rejected.
 - `meta.json` may contain only `label`, `order`, `labels`, and `hidden`.
   References must name direct children and must not contain paths or traversal.
 - Never commit secrets, tokens, credentials, private keys, `.env` files, or

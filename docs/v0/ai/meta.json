@@ -1,0 +1,21 @@
+{
+  "label": "AI",
+  "order": [
+    "starting-an-ai-chat",
+    "adding-skills",
+    "agents-md",
+    "mcp-server",
+    "mcp-with-ai-clients",
+    "manage-mcp-access-for-a-space",
+    "troubleshoot-outline-mcp"
+  ],
+  "labels": {
+    "starting-an-ai-chat": "Start an AI chat",
+    "adding-skills": "Add skills to AI Chat",
+    "agents-md": "AGENTS.md",
+    "mcp-server": "About the Outline MCP server",
+    "mcp-with-ai-clients": "Connect Outline MCP to AI clients",
+    "manage-mcp-access-for-a-space": "Manage MCP access for a Space",
+    "troubleshoot-outline-mcp": "Troubleshoot Outline MCP"
+  }
+}

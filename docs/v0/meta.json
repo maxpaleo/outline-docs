@@ -1,3 +1,23 @@
 {
-  "label": "Outline"
+  "label": "Outline",
+  "order": [
+    "intro",
+    "ai",
+    "excalidraw",
+    "resource-items",
+    "spaces",
+    "tables",
+    "terminal",
+    "workflows"
+  ],
+  "labels": {
+    "intro": "Introduction",
+    "ai": "AI",
+    "excalidraw": "Excalidraw",
+    "resource-items": "Resource Items",
+    "spaces": "Spaces",
+    "tables": "Tables",
+    "terminal": "Terminal",
+    "workflows": "Workflows"
+  }
 }

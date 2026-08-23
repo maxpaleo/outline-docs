@@ -1,0 +1,11 @@
+{
+  "label": "Excalidraw",
+  "order": [
+    "create-excalidraw-drawings",
+    "excalidraw-with-ai-agents"
+  ],
+  "labels": {
+    "create-excalidraw-drawings": "Create Excalidraw drawings",
+    "excalidraw-with-ai-agents": "Use Excalidraw with AI agents"
+  }
+}

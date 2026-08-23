@@ -16,6 +16,12 @@ main
 └── docs/
     ├── v0/
     │   ├── index.md
+    │   ├── intro.md
+    │   ├── ai/
+    │   │   ├── meta.json
+    │   │   └── ...
+    │   ├── attachments/
+    │   │   └── ...
     │   └── meta.json
     └── v1/
         ├── index.md
@@ -37,7 +43,7 @@ Only `.md` files become articles. `index.md` is the landing page for its
 directory, so `docs/v0/index.md` is served at `/docs/v0`. Use kebab-case for
 article and directory names, except for the reserved `index.md` and `meta.json`.
 
-Frontmatter is optional and, when present, may contain only these fields:
+Frontmatter is optional. The supported presentation and SEO fields are:
 
 ```yaml
 ---
@@ -53,7 +59,10 @@ keywords:
 
 The supported types are non-empty strings for `title` and `description`, an
 absolute URL for `image`, a boolean for `indexable`, and an array of non-empty
-strings for `keywords`. Unknown fields and invalid values are rejected.
+strings for `keywords`. Invalid values for supported fields are rejected.
+Legacy or source metadata, including fields such as `created` and `updated`,
+may remain in migrated Markdown for source fidelity. The web app ignores these
+unsupported fields rather than exposing them as presentation or SEO metadata.
 
 An optional directory-local `meta.json` may contain only `label`, `order`,
 `labels`, and `hidden`:
@@ -75,7 +84,8 @@ excluded from navigation, search, sitemap, and direct rendering.
 ## Contribution workflow
 
 1. Add or edit content beneath the intended `docs/<version>` directory.
-2. Keep frontmatter and metadata within the strict contract above.
+2. Keep supported frontmatter values and metadata within the strict contract
+   above; preserve legacy/source metadata when migrating existing Markdown.
 3. Update the nearest `meta.json` only for direct-child labels, ordering, or
    visibility.
 4. Check the route implied by each path and open a pull request against `main`.

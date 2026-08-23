@@ -1,0 +1,15 @@
+{
+  "label": "Workflows",
+  "order": [
+    "managing-projects-with-ai",
+    "planning-a-product-launch",
+    "running-weekly-team-meetings",
+    "turning-customer-emails-into-tasks"
+  ],
+  "labels": {
+    "managing-projects-with-ai": "Managing Projects with AI",
+    "planning-a-product-launch": "Planning a Product Launch",
+    "running-weekly-team-meetings": "Running Weekly Team Meetings",
+    "turning-customer-emails-into-tasks": "Turning Customer Emails into Tasks"
+  }
+}

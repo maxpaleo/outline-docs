@@ -1,0 +1,11 @@
+{
+  "label": "Resource Items",
+  "order": [
+    "use-resource-items",
+    "configure-resource-items"
+  ],
+  "labels": {
+    "use-resource-items": "Use resource items",
+    "configure-resource-items": "Configure resource items"
+  }
+}
