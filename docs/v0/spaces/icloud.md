@@ -1,8 +1,7 @@
 ---
 created: 2026-08-22T00:31:25Z
-updated: 2026-08-22T00:31:25Z
+updated: 2026-08-26T22:25:48.092Z
 ---
-
 Outline can store a Space in iCloud Drive so its notes and files are available on your other Macs, or keep it only on the Mac where you created it.
 
 ## What happens on a new installation
@@ -20,8 +19,8 @@ Outline does not automatically move Spaces from an existing installation. For ex
 1. Select **New space**.
 2. Enter a name.
 3. Under **Save in**, choose a location:
-   - **iCloud Drive** makes the Space available on Macs signed in to your Apple Account with iCloud Drive enabled. This is the default choice.
-   - **On This Mac** stores the Space only in Outline's local app folder on the current Mac.
+  - **iCloud Drive** makes the Space available on Macs signed in to your Apple Account with iCloud Drive enabled. This is the default choice.
+  - **On This Mac** stores the Space only in Outline's local app folder on the current Mac.
 4. Select **Create space**.
 
 If you choose iCloud Drive and it is unavailable, Outline asks you to try again or choose **On This Mac**. It does not silently create the Space in a different location.

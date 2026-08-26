@@ -1,6 +1,6 @@
 ---
 created: 2026-08-16T18:04:28.113Z
-updated: 2026-08-20T23:04:02.875Z
+updated: 2026-08-26T22:26:24.735Z
 ---
 # Use resource items
 
@@ -33,4 +33,4 @@ If Outline cannot load or understand one or more resources, a **Warnings** secti
 
 Open it to see what went wrong and which resource caused the warning. Warnings do not prevent other resources from working.
 
-To change which resource groups appear, see [[Help Center/Public/Resource Items/Configure Resource Items|Configure resource items]].
+To change which resource groups appear, see [[docs/v0/resource-items/configure-resource-items]].

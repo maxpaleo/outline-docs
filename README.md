@@ -1,3 +1,6 @@
+---
+updated: 2026-08-26T22:09:47.519Z
+---
 # Outline documentation content
 
 This public repository is the content source for [docs.outline-app.co](https://docs.outline-app.co).
@@ -85,9 +88,11 @@ excluded from navigation, search, sitemap, and direct rendering.
 
 1. Add or edit content beneath the intended `docs/<version>` directory.
 2. Keep supported frontmatter values and metadata within the strict contract
-   above; preserve legacy/source metadata when migrating existing Markdown.
+
+  above; preserve legacy/source metadata when migrating existing Markdown.
 3. Update the nearest `meta.json` only for direct-child labels, ordering, or
-   visibility.
+
+  visibility.
 4. Check the route implied by each path and open a pull request against `main`.
 
 After merge, the site receives content through GitHub caching and the

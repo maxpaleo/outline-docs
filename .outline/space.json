@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 6,
+  "id": "space_63c79cfb83e9446d83d80b54ae6ee182",
+  "name": "outline-docs",
+  "createdAt": "2026-08-26T21:43:14.098Z",
+  "updatedAt": "2026-08-26T22:14:11.778Z",
+  "discovery": [
+    {
+      "id": "outline-templates",
+      "title": "Templates",
+      "description": "Reusable templates for this space.",
+      "tags": [
+        "kind:template",
+        "provider:outline",
+        "scope:space"
+      ],
+      "enabled": true,
+      "paths": [
+        ".outline/templates/**/*.md"
+      ]
+    },
+    {
+      "id": "outline-commands",
+      "title": "Commands",
+      "description": "Reusable command templates for this space.",
+      "tags": [
+        "kind:command",
+        "provider:outline",
+        "scope:space"
+      ],
+      "enabled": true,
+      "paths": [
+        ".outline/commands/**/*.md"
+      ]
+    }
+  ],
+  "providers": {
+    "codexSkills": {
+      "enabled": true
+    }
+  },
+  "chat": {
+    "storageMode": "local"
+  },
+  "agentGuide": {
+    "managed": true
+  },
+  "editor": {
+    "showFrontmatter": true,
+    "frontmatterSyntaxTheme": "muted"
+  },
+  "files": {
+    "patterns": {
+      "AGENTS.md": "excluded",
+      "**/AGENTS.md": "excluded",
+      "**/.outline": "hidden",
+      "**/.git": "excluded",
+      "**/.obsidian": "excluded",
+      "**/.DS_Store": "excluded",
+      "**/TABLE_NOTES": "hidden",
+      "**/.unorganized": "hidden"
+    }
+  }
+}

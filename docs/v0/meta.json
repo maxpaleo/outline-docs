@@ -1,5 +1,5 @@
 {
-  "label": "Outline",
+  "attachmentsDir": "Attachments",
   "order": [
     "intro",
     "ai",
@@ -19,5 +19,8 @@
     "tables": "Tables",
     "terminal": "Terminal",
     "workflows": "Workflows"
-  }
+  },
+  "hidden": [
+    "internal"
+  ]
 }

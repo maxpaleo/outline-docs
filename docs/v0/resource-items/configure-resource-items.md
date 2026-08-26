@@ -1,6 +1,6 @@
 ---
 created: 2026-08-16T18:32:13.000Z
-updated: 2026-08-21T17:54:11.337Z
+updated: 2026-08-26T22:26:06.539Z
 ---
 # Configure resource items
 
@@ -74,3 +74,4 @@ Add the entry as another object inside the existing `discovery` array. Each matc
 
 - [[Help Center/Public/AI/Adding Skills|Add skills to AI Chat]]
 - [[Help Center/Public/Terminal/AI in the Terminal|Use AI in the Terminal]]
+

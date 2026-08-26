@@ -1,6 +1,6 @@
 ---
 created: 2026-08-18T16:00:11+02:00
-updated: 2026-08-18T16:06:28.540Z
+updated: 2026-08-26T22:24:34.734Z
 ---
 Use Excalidraw drawings to create diagrams, flows, sketches, and other visual notes inside an Outline Space. Each drawing is stored as an `.excalidraw` file alongside your other files.
 
@@ -21,4 +21,4 @@ Open the drawing from the sidebar, then use the toolbar to add shapes, arrows, f
 
 Outline saves changes automatically as you work.
 
-To inspect or update a drawing with AI, see [[Help Center/Public/Excalidraw/Excalidraw with AI agents|Use Excalidraw with AI agents]].
+To inspect or update a drawing with AI, see [[docs/v0/excalidraw/excalidraw-with-ai-agents]].
