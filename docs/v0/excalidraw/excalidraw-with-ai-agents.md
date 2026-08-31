@@ -1,6 +1,6 @@
 ---
 created: 2026-08-18T16:00:11+02:00
-updated: 2026-08-20T23:04:45.260Z
+updated: 2026-08-28T17:59:28.354Z
 ---
 # Use Excalidraw with AI agents
 
@@ -38,11 +38,11 @@ Enable the Space under **Settings &gt; Space &gt; AI MCP access**:
 
 One external MCP connection can work with all enabled Spaces. If more than one Space is enabled, name the Space and drawing in your request so the agent chooses the right one.
 
-Only enable **Read &amp; write** for clients you trust. To configure a client, see [[Help Center/Public/AI/MCP with AI Clients|Connect Outline MCP to AI clients]].
+Only enable **Read &amp; write** for clients you trust. To configure a client, see [[docs/v0/ai/mcp-with-ai-clients]].
 
 ## Related articles
 
-- [[Help Center/Public/AI/Manage MCP access for a Space|Manage MCP access for a Space]]
-- [[Help Center/Public/AI/MCP Server|About the Outline MCP server]]
-- [[Help Center/Public/AI/Starting an AI Chat|Start an AI chat]]
+- [[docs/v0/ai/manage-mcp-access-for-a-space]]
+- [[docs/v0/ai/mcp-server]]
+- [[docs/v0/ai/starting-an-ai-chat]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-08-18T00:01:39+02:00
-updated: 2026-08-20T23:04:14.535Z
+updated: 2026-08-28T17:58:28.321Z
 ---
 # About the Outline MCP server
 
@@ -61,7 +61,7 @@ The AI client may process that content according to its own settings and privacy
 
 ## Related articles
 
-- [[Help Center/Public/AI/MCP with AI Clients|Connect Outline MCP to AI clients]]
-- [[Help Center/Public/AI/Manage MCP access for a Space|Manage MCP access for a Space]]
-- [[Help Center/Public/AI/Troubleshoot Outline MCP|Troubleshoot Outline MCP]]
+- [[docs/v0/ai/mcp-with-ai-clients]]
+- [[docs/v0/ai/manage-mcp-access-for-a-space]]
+- [[docs/v0/ai/troubleshoot-outline-mcp]]
 

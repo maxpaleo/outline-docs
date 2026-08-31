@@ -2,6 +2,8 @@
   "attachmentsDir": "Attachments",
   "order": [
     "intro",
+    "notes",
+    "advanced",
     "ai",
     "excalidraw",
     "resource-items",
@@ -12,6 +14,8 @@
   ],
   "labels": {
     "intro": "Introduction",
+    "notes": "Notes",
+    "advanced": "Advanced",
     "ai": "AI",
     "excalidraw": "Excalidraw",
     "resource-items": "Resource Items",

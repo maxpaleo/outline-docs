@@ -1,6 +1,6 @@
 ---
 created: 2026-08-16T22:22:52.000Z
-updated: 2026-08-16T22:29:08.560Z
+updated: 2026-08-28T17:58:38.311Z
 ---
 # Start an AI chat
 
@@ -23,4 +23,4 @@ If prompted, connect your ChatGPT account before continuing.
 
 You can also select the **+** button in the composer to add notes, folders, files, or other resources to your message.
 
-Learn more in [[Help Center/Public/Resource Items/Use Resource Items|Use resource items]].
+Learn more in [[docs/v0/resource-items/use-resource-items]].

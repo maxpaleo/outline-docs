@@ -1,6 +1,6 @@
 ---
 created: 2026-08-18T00:01:39+02:00
-updated: 2026-08-20T23:02:48.693Z
+updated: 2026-08-28T17:58:17.032Z
 ---
 # Connect Outline MCP to AI clients
 
@@ -111,7 +111,7 @@ After enabling another Space or changing a Space from **Read only** to **Read &a
 
 ## Related articles
 
-- [[Help Center/Public/AI/Manage MCP access for a Space|Manage MCP access for a Space]]
-- [[Help Center/Public/AI/Troubleshoot Outline MCP|Troubleshoot Outline MCP]]
-- [[Help Center/Public/AI/MCP Server|About the Outline MCP server]]
+- [[docs/v0/ai/manage-mcp-access-for-a-space]]
+- [[docs/v0/ai/troubleshoot-outline-mcp]]
+- [[docs/v0/ai/mcp-server]]
 

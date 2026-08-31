@@ -1,36 +1,41 @@
+---
+updated: 2026-08-28T18:14:53.064Z
+---
 # Outline docs content rules
 
 - This is a public, content-only repository for `https://docs.outline-app.co`.
-  Do not add application code, `package.json`, lockfiles, dependencies, build
-  output, or environment files.
+Do not add application code, `package.json`, lockfiles, dependencies, build
+output, or environment files.
 - Keep each version self-contained beneath `docs/<version>` on `main`. The
-  currently registered scaffolds are `docs/v0` and `docs/v1`.
+currently registered scaffolds are `docs/v0` and `docs/v1`.
 - Use kebab-case for Markdown filenames and directories. `index.md` is the
-  landing article for its directory; `meta.json` is directory navigation data.
+landing article for its directory; `meta.json` is directory navigation data.
 - Frontmatter may include the supported presentation and SEO fields `title`,
-  `description`, `image`, `indexable`, and `keywords`, with the types documented
-  in `README.md`. Legacy or source metadata such as `created` and `updated` may
-  remain in migrated notes and is ignored by the web app. Invalid values for
-  supported fields remain rejected.
+`description`, `image`, `indexable`, and `keywords`, with the types documented
+in `README.md`. Legacy or source metadata such as `created` and `updated` may
+remain in migrated notes and is ignored by the web app. Invalid values for
+supported fields remain rejected.
 - `meta.json` may contain only `label`, `order`, `labels`, and `hidden`.
-  References must name direct children and must not contain paths or traversal.
+References must name direct children and must not contain paths or traversal.
 - Never commit secrets, tokens, credentials, private keys, `.env` files, or
-  secret-bearing command examples. Application and webhook configuration stays
-  in the Outline monorepo/deployment settings.
+secret-bearing command examples. Application and webhook configuration stays
+in the Outline monorepo/deployment settings.
 
-<!-- outline-managed:start version="8" -->
+
+
 ## Outline-managed agent guidance
 
 Outline keeps this section updated. Put custom instructions outside it. To disable it, turn off “Keep Outline agent guidance up to date” in Space settings.
 
 - This folder is an Outline space. Markdown files are the source of truth for notes.
 - `.outline/space.json` is the Space config. Edit it only when asked, preserving existing and unrelated fields plus valid JSON.
-- `Attachments/` stores local assets referenced by notes.
+- Local assets referenced by notes are stored in the Space-relative directory configured by `attachments.directory` in `.outline/space.json`.
 - Preserve note frontmatter and avoid rewriting note content unless requested.
 - For ordinary structured data, use GFM tables. For managed Outline tables, first load the `outline-tables` runtime skill; if it is unavailable, read the installed `../../agents/outline-tables.md` reference when accessible; if neither is available and MCP exposes `get_agent_docs`, call it with `{ doc: "outline-tables" }`.
 - For richer static visuals, use `html-preview` blocks. First load the `outline-html-preview` runtime skill; if it is unavailable, read the installed `../../agents/html-preview-elements.md` reference when accessible; if neither is available and MCP exposes `get_agent_docs`, call it with `{ doc: "html-preview" }`.
 - A note title comes from its filename; do not repeat it as a heading in the note.
-<!-- outline-managed:end -->
+
+
 
 # Help Center agent guide
 
@@ -101,3 +106,4 @@ When an article includes screenshots or other visual examples:
 Add a screenshot of the macOS app with the chat open. Frame it tightly around the chat area and composer.
 <!-- /outline:block -->
 ```
+

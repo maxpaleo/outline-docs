@@ -1,0 +1,9 @@
+{
+  "label": "Advanced",
+  "order": [
+    "configuration"
+  ],
+  "labels": {
+    "configuration": "Configure a Space with space.json"
+  }
+}

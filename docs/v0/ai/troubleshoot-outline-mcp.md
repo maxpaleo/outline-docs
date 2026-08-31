@@ -1,6 +1,6 @@
 ---
 created: 2026-08-21T00:57:13+02:00
-updated: 2026-08-21T22:00:05.530Z
+updated: 2026-08-28T17:58:54.680Z
 ---
 # Troubleshoot Outline MCP
 
@@ -65,7 +65,7 @@ The file format or AI client may not support an inline visual preview. Some prev
 
 ## Related articles
 
-- [[Help Center/Public/AI/MCP with AI Clients|Connect Outline MCP to AI clients]]
-- [[Help Center/Public/AI/Manage MCP access for a Space|Manage MCP access for a Space]]
-- [[Help Center/Public/AI/MCP Server|About the Outline MCP server]]
+- [[docs/v0/ai/mcp-with-ai-clients]]
+- [[docs/v0/ai/manage-mcp-access-for-a-space]]
+- [[docs/v0/ai/mcp-server]]
 

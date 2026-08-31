@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 6,
+  "schemaVersion": 7,
   "id": "space_63c79cfb83e9446d83d80b54ae6ee182",
   "name": "outline-docs",
   "createdAt": "2026-08-26T21:43:14.098Z",
-  "updatedAt": "2026-08-26T22:14:11.778Z",
+  "updatedAt": "2026-08-28T18:13:14.371Z",
   "discovery": [
     {
       "id": "outline-templates",
@@ -49,10 +49,13 @@
     "showFrontmatter": true,
     "frontmatterSyntaxTheme": "muted"
   },
+  "attachments": {
+    "directory": "Attachments"
+  },
   "files": {
     "patterns": {
-      "AGENTS.md": "excluded",
-      "**/AGENTS.md": "excluded",
+      "AGENTS.md": "visible",
+      "**/AGENTS.md": "visible",
       "**/.outline": "hidden",
       "**/.git": "excluded",
       "**/.obsidian": "excluded",

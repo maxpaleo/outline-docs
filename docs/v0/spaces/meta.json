@@ -1,9 +1,13 @@
 {
   "label": "Spaces",
   "order": [
-    "icloud"
+    "icloud",
+    "choose-where-attachments-are-saved",
+    "hide-files-and-folders-from-the-sidebar"
   ],
   "labels": {
-    "icloud": "iCloud"
+    "icloud": "iCloud",
+    "choose-where-attachments-are-saved": "Choose where attachments are saved",
+    "hide-files-and-folders-from-the-sidebar": "Hide files and folders from the sidebar"
   }
 }

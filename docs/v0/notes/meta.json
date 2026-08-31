@@ -1,0 +1,7 @@
+{
+  "label": "Notes",
+  "order": ["link-to-notes"],
+  "labels": {
+    "link-to-notes": "Link to notes"
+  }
+}

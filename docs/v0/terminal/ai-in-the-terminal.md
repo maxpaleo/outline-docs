@@ -1,6 +1,6 @@
 ---
 created: 2026-08-16T22:22:52.000Z
-updated: 2026-08-21T19:16:58.887Z
+updated: 2026-08-28T18:00:10.127Z
 ---
 # Use AI in the Terminal
 
@@ -39,4 +39,4 @@ Configured skill folders also appear in the resource menu. Selecting a file-back
 
 Use `$skill-name` only inside a Codex session. At a normal shell prompt, the shell treats it as a variable.
 
-To add a skills folder, see [[Help Center/Public/AI/Adding Skills|Adding skills]].
+To add a skills folder, see [[docs/v0/ai/adding-skills]].

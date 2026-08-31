@@ -1,6 +1,6 @@
 ---
 created: 2026-08-16T22:22:52.000Z
-updated: 2026-08-21T18:20:06.730Z
+updated: 2026-08-28T17:57:20.691Z
 ---
 # Add skills to AI Chat
 
@@ -29,7 +29,7 @@ Open the Space’s resource discovery configuration and add a file-backed resour
 
 The screenshot above uses `.my-resources/skills/*.md`. If your skills are stored elsewhere, update the `paths` array with matching patterns such as `.agents/skills/*/SKILL.md`, `.agents/skills/*.md`, `.codex/skills/*/SKILL.md`, `.claude/skills/*/SKILL.md`, or `.cursor/skills/*/SKILL.md`.
 
-For more options, see [[Help Center/Public/Resource Items/Configure Resource Items|Configure resource items]].
+For more options, see [[docs/v0/resource-items/configure-resource-items]].
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-08-21T00:57:13+02:00
-updated: 2026-08-20T23:02:58.564Z
+updated: 2026-08-28T17:57:48.758Z
 ---
 # Manage MCP access for a Space
 
@@ -40,7 +40,7 @@ MCP access does not bypass Outline's existing protections:
 
 ## Related articles
 
-- [[Help Center/Public/AI/MCP with AI Clients|Connect Outline MCP to AI clients]]
-- [[Help Center/Public/AI/MCP Server|About the Outline MCP server]]
-- [[Help Center/Public/AI/Troubleshoot Outline MCP|Troubleshoot Outline MCP]]
+- [[docs/v0/ai/mcp-with-ai-clients]]
+- [[docs/v0/ai/mcp-server]]
+- [[docs/v0/ai/troubleshoot-outline-mcp]]
 
