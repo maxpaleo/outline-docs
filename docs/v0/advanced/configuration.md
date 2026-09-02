@@ -1,5 +1,6 @@
 ---
 description: Understand and edit the advanced settings stored in a Space's configuration file.
+updated: 2026-09-01T15:22:41.040Z
 ---
 Every Space contains a `.outline/space.json` file. Outline uses this JSON file to identify the Space and store settings that travel with it.
 

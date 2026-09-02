@@ -1,6 +1,6 @@
 ---
 created: 2026-08-14T16:44:32.355Z
-updated: 2026-08-31T15:50:02.000Z
+updated: 2026-09-02T23:01:02.615Z
 outline:
   pageWidth: full
 ---
@@ -53,25 +53,42 @@ columns:
         - Resource Items
         - AI
         - Terminal
-        - Tables
         - Excalidraw
         - Html
         - Workflows
         - Spaces
         - Notes
         - Advanced
+        - Get Started
+        - Elements
       allowOptionCreation: true
 view:
   columnWidths:
-    column_8: 194
-    column_5: 122
+    column_8: 164
+    column_5: 99
     column_7: 103
+    column_3: 118
+    column_6: 121
   columnLineLimits:
     column_8: 3
+    column_6: 2
   grouping:
     columnIds:
       - column_3
       - column_6
+  collapsedGroupKeys:
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"AI\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Terminal\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Resource Items\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Excalidraw\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Html\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Workflows\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Spaces\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Advanced\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"empty\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Internal\"]"],["column_6","[\"string\",\"Resource Items\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Notes\"]"]]]'
+    - '["group-path",[["column_3","[\"string\",\"Public\"]"],["column_6","[\"string\",\"Get Started\"]"]]]'
   groupOrder:
     - '["group-path",[["column_3","[\"string\",\"Public\"]"]]]'
     - '["group-path",[["column_3","[\"string\",\"Internal\"]"]]]'
@@ -100,7 +117,6 @@ view:
 | Configure a Space with space.json | Configure exact paths, patterns, parent visibility precedence, attachments, resources, chat, agents, and editor settings. | Completed |  | [[docs/v0/advanced/configuration]] |  | Public | Advanced |
 | View and edit note frontmatter | Display, add, edit, validate, and configure YAML frontmatter in a Space. | Completed |  | [[docs/v0/mcp/view-and-edit-note-frontmatter]] |  | Public | Advanced |
 | Launch a terminal session |  |  |  |  |  | Public | Terminal |
-| Using Tables | A simple introduct to data tables | Pending |  | [[docs/v0/tables/using-tables]] |  | Public | Tables |
 | Create and edit Excalidraw drawings | A brief simple intro to excalidraw type files in outline. <br><br>How to create a new file.&nbsp; | Completed |  | [[docs/v0/excalidraw/create-excalidraw-drawings]] |  | Public | Excalidraw |
 |  |  |  |  |  |  | Public |  |
 |  |  |  |  |  |  | Public |  |
@@ -109,10 +125,16 @@ view:
 | Use Excalidraw with AI agents | Should explain how excalidraw inoutline can be handled by ai agents. <br><br>Should start by explain ghtat that ai agents can work with excalidraw drawings in outline through the mcp server. <br><br>Then the first example should be how to work with excalidraw and the ai agentin side outline ai chat. <br><br>Then a section explaining how external ai clients can work with excalidrawin draginw in outline like codex, claude, cursor. <br><br>At the end we can add links to learn more about the mcp server and learn more about how ai agents work.&nbsp; | Completed |  | [[docs/v0/excalidraw/excalidraw-with-ai-agents]] |  | Public | Excalidraw |
 |  |  | Pending |  |  |  | Public | Html |
 |  |  | Pending |  |  |  | Public | Terminal |
-| Table data types | A detailed overview of all the column data types with a usage screenshot of each type | Pending |  |  |  | Public | Tables |
-|  |  | Pending |  |  |  | Public | Tables |
+| Tables | A detailed article tables. Should also llist all the col data types and the features. | Pending |  | [[docs/v0/elements/table]] |  | Public | Elements |
 | Managing Projects with AI | Turn a customer project request into a well-scoped task by asking AI to capture the needed details and attach the original inquiry. | Pending |  | [[docs/v0/workflows/managing-projects-with-ai]] |  | Public | Workflows |
 | Turning Customer Emails into Tasks | Use AI to extract customer context and next steps from an email, then create an assigned task with the source attached. | Pending |  | [[docs/v0/workflows/turning-customer-emails-into-tasks]] |  | Public | Workflows |
 | Planning a Product Launch | Use a shared launch plan to organize milestones, ownership, reference material, and follow-up tasks in one place. | Pending |  | [[docs/v0/workflows/planning-a-product-launch]] |  | Public | Workflows |
 | Running Weekly Team Meetings | Keep weekly meetings focused by turning agendas, decisions, and action items into a reusable team workflow. | Pending |  | [[docs/v0/workflows/running-weekly-team-meetings]] |  | Public | Workflows |
+| Get Started | A simple user friendly artilce that explains how wrrite anote. Can ref the Formatting and Elemetns articles | Pending | [[.unorganized/tables/tbl_2d8943d4-7c17-4e/Untitled 1]] | [[docs/v0/get-started]] |  | Public | Get Started |
+|  |  | Pending |  |  |  | Public | Get Started |
+|  |  | Pending |  |  |  | Public | Get Started |
+| Formatting |  | Pending | [[.unorganized/tables/tbl_2d8943d4-7c17-4e/Untitled 2]] |  |  | Public | Notes |
+| Command Menu | Should explain the command menu in detail. First introduce the command menu to explain what it is, that it allows quick addition of elements. That it can be opened by typing / . Can ref the Elements article&nbsp; | Pending |  | [[docs/v0/notes/command-menu]] |  | Public | Notes |
+| Elements | An article that lists all the elements. <br><br>We will list each element with a brief desctiption, but not more than 2-3 paragraphs per element. We can reference to other articles for more detailed elemetns like the data table for example.&nbsp; | Pending |  | [[docs/v0/notes/elements]] |  | Public | Notes |
 <!-- /outline:block -->
+
