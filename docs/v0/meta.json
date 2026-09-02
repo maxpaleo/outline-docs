@@ -8,7 +8,6 @@
     "excalidraw",
     "resource-items",
     "spaces",
-    "tables",
     "terminal",
     "workflows"
   ],
@@ -20,7 +19,6 @@
     "excalidraw": "Excalidraw",
     "resource-items": "Resource Items",
     "spaces": "Spaces",
-    "tables": "Tables",
     "terminal": "Terminal",
     "workflows": "Workflows"
   },
