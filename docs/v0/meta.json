@@ -2,6 +2,7 @@
   "attachmentsDir": "Attachments",
   "order": [
     "intro",
+    "use-outline-from-the-menu-bar",
     "notes",
     "advanced",
     "ai",
@@ -13,6 +14,7 @@
   ],
   "labels": {
     "intro": "Introduction",
+    "use-outline-from-the-menu-bar": "Use Outline from the menu bar",
     "notes": "Notes",
     "advanced": "Advanced",
     "ai": "AI",

@@ -1,6 +1,6 @@
 ---
 created: 2026-08-14T16:44:32.355Z
-updated: 2026-09-02T23:01:02.615Z
+updated: 2026-09-03T00:06:50.367Z
 outline:
   pageWidth: full
 ---
@@ -61,6 +61,7 @@ columns:
         - Advanced
         - Get Started
         - Elements
+        - macOS
       allowOptionCreation: true
 view:
   columnWidths:
@@ -131,6 +132,7 @@ view:
 | Planning a Product Launch | Use a shared launch plan to organize milestones, ownership, reference material, and follow-up tasks in one place. | Pending |  | [[docs/v0/workflows/planning-a-product-launch]] |  | Public | Workflows |
 | Running Weekly Team Meetings | Keep weekly meetings focused by turning agendas, decisions, and action items into a reusable team workflow. | Pending |  | [[docs/v0/workflows/running-weekly-team-meetings]] |  | Public | Workflows |
 | Get Started | A simple user friendly artilce that explains how wrrite anote. Can ref the Formatting and Elemetns articles | Pending | [[.unorganized/tables/tbl_2d8943d4-7c17-4e/Untitled 1]] | [[docs/v0/get-started]] |  | Public | Get Started |
+| Use Outline from the menu bar | Create notes, open recent notes, switch Spaces, and open Space settings from the macOS menu bar. | In Progress |  | [[docs/v0/the-menu-bar]] |  | Public | macOS |
 |  |  | Pending |  |  |  | Public | Get Started |
 |  |  | Pending |  |  |  | Public | Get Started |
 | Formatting |  | Pending | [[.unorganized/tables/tbl_2d8943d4-7c17-4e/Untitled 2]] |  |  | Public | Notes |
