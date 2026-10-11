@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 7,
+  "schemaVersion": 8,
   "id": "space_63c79cfb83e9446d83d80b54ae6ee182",
   "name": "outline-docs",
   "createdAt": "2026-08-26T21:43:14.098Z",
-  "updatedAt": "2026-08-28T18:13:14.371Z",
+  "updatedAt": "2026-10-11T18:03:34.040Z",
   "discovery": [
     {
       "id": "outline-templates",
@@ -36,7 +36,7 @@
   ],
   "providers": {
     "codexSkills": {
-      "enabled": true
+      "enabled": false
     }
   },
   "chat": {
@@ -52,6 +52,7 @@
   "attachments": {
     "directory": "Attachments"
   },
+  "label": "outline-docs",
   "files": {
     "patterns": {
       "AGENTS.md": "visible",
@@ -62,6 +63,7 @@
       "**/.DS_Store": "excluded",
       "**/TABLE_NOTES": "hidden",
       "**/.unorganized": "hidden"
-    }
+    },
+    "paths": {}
   }
 }

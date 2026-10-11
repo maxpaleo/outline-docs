@@ -5,6 +5,7 @@
     "notes",
     "advanced",
     "ai",
+    "mcp",
     "excalidraw",
     "resource-items",
     "spaces",
@@ -20,7 +21,8 @@
     "resource-items": "Resource Items",
     "spaces": "Spaces",
     "terminal": "Terminal",
-    "workflows": "Workflows"
+    "workflows": "Workflows",
+    "mcp": "MCP"
   },
   "hidden": [
     "internal"

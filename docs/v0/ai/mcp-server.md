@@ -1,9 +1,7 @@
 ---
 created: 2026-08-18T00:01:39+02:00
-updated: 2026-08-28T17:58:28.321Z
+updated: 2026-10-11T18:14:34.558Z
 ---
-# About the Outline MCP server
-
 Outline MCP lets a compatible AI client work with notes and files in the Outline Spaces you approve. MCP stands for Model Context Protocol, a standard that allows an AI client to use tools supplied by another application.
 
 ## How it works
@@ -20,16 +18,18 @@ Every Space starts with external MCP access set to **Off**.
 
 **Read only** lets an external client:
 
-- Search notes.
-- Read a note.
+- Search accessible text and binary files.
+- Read text or inspect binary file metadata.
 - List a folder.
+- Validate saved content.
 - Preview a supported file.
 
 **Read &amp; write** also lets an external client:
 
-- Create folders and Markdown notes.
-- Update Markdown notes.
-- Update existing Excalidraw drawings.
+- Create folders and UTF-8 text files, including Markdown, Excalidraw, HTML, JSON, and CSV.
+- Update existing text files using their current revision.
+
+These file tools require **Outline tools 0.0.2 or later**. Binary files can be discovered and inspected, but cannot be created or updated through these tools. See [MCP tools reference](/docs/v0/mcp/tools-reference) for all tools and their inputs.
 
 Give **Read &amp; write** access only to clients you trust. Your AI client may still ask for approval before it runs a tool.
 
@@ -45,7 +45,9 @@ Excluded files remain unavailable. Hidden files are omitted from normal searches
 
 ## Changes and conflicts
 
-Before updating an existing note or drawing, the client must read its current revision. If the file changes before the update is saved, Outline returns a conflict instead of overwriting the newer version. The client can then read the file again before trying another update.
+Before updating an existing text file, the client must read its current revision. If the file changes before the update is saved, Outline returns a conflict instead of overwriting the newer version. The client can then read the file again before trying another update.
+
+Creating or updating a file saves it before returning validation diagnostics. If content is malformed, the agent can correct the saved file using the returned revision. Markdown updates preserve existing frontmatter.
 
 ## Previews
 
@@ -59,9 +61,14 @@ Outline MCP does not add telemetry, cloud storage, or an HTTP connection. Search
 
 The AI client may process that content according to its own settings and privacy policy. Review those settings before enabling access to private Spaces.
 
+## Installation and updates
+
+Outline tools are installed separately from the app through **Settings > AI > Outline tools**. An app update specifies the required tools version, but opening it does not automatically upgrade the installed runtime. Install or repair the tools as needed, then reconnect your client.
+
 ## Related articles
 
-- [[docs/v0/ai/mcp-with-ai-clients]]
-- [[docs/v0/ai/manage-mcp-access-for-a-space]]
-- [[docs/v0/ai/troubleshoot-outline-mcp]]
+- [MCP tools reference](/docs/v0/mcp/tools-reference)
+- [Connect Outline MCP to AI clients](/docs/v0/ai/mcp-with-ai-clients)
+- [Manage MCP access for a Space](/docs/v0/ai/manage-mcp-access-for-a-space)
+- [Troubleshoot Outline MCP](/docs/v0/ai/troubleshoot-outline-mcp)
 

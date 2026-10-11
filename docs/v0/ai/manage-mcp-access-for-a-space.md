@@ -1,9 +1,7 @@
 ---
 created: 2026-08-21T00:57:13+02:00
-updated: 2026-08-28T17:57:48.758Z
+updated: 2026-10-11T18:14:34.558Z
 ---
-# Manage MCP access for a Space
-
 Choose which Outline Spaces an external AI client can use and whether it can make changes. Access is managed separately for every Space and starts **Off**.
 
 ## Change a Space's access
@@ -16,7 +14,9 @@ The available levels are:
 
 - **Off** — External AI clients cannot access the Space.
 - **Read only** — Clients can list folders, search, read, validate, and preview accessible content.
-- **Read &amp; write** — Clients can also create folders and supported notes, and update supported notes and drawings.
+- **Read &amp; write** — With Outline tools 0.0.2 or later, clients can also create folders and UTF-8 text files, and update existing text files, including notes and Excalidraw drawings. Binary files cannot be created or updated.
+
+See [MCP tools reference](/docs/v0/mcp/tools-reference) for the available tools and their inputs.
 
 These settings affect external MCP clients such as Codex, Claude Code, and Cursor. They do not change what Outline's built-in AI Chat can do.
 
@@ -40,7 +40,8 @@ MCP access does not bypass Outline's existing protections:
 
 ## Related articles
 
-- [[docs/v0/ai/mcp-with-ai-clients]]
-- [[docs/v0/ai/mcp-server]]
-- [[docs/v0/ai/troubleshoot-outline-mcp]]
+- [MCP tools reference](/docs/v0/mcp/tools-reference)
+- [Connect Outline MCP to AI clients](/docs/v0/ai/mcp-with-ai-clients)
+- [About the Outline MCP server](/docs/v0/ai/mcp-server)
+- [Troubleshoot Outline MCP](/docs/v0/ai/troubleshoot-outline-mcp)
 

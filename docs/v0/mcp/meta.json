@@ -1,0 +1,11 @@
+{
+  "label": "MCP",
+  "order": [
+    "tools-reference",
+    "view-and-edit-note-frontmatter"
+  ],
+  "labels": {
+    "tools-reference": "MCP tools reference",
+    "view-and-edit-note-frontmatter": "View and edit note frontmatter"
+  }
+}

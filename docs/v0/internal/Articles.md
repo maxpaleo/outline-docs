@@ -1,6 +1,6 @@
 ---
 created: 2026-08-14T16:44:32.355Z
-updated: 2026-09-03T00:06:50.367Z
+updated: 2026-10-11T18:14:34.558Z
 outline:
   pageWidth: full
 ---
@@ -108,6 +108,7 @@ view:
 | Adding Skills |  | Completed |  | [[docs/v0/ai/adding-skills]] |  | Public | AI |
 | AI in the Terminal |  | Completed |  | [[docs/v0/terminal/ai-in-the-terminal]] |  | Public | AI |
 | MCP Server |  | Completed |  | [[docs/v0/ai/mcp-server]] |  | Public | AI |
+| MCP tools reference | All ten tools in Outline tools 0.0.2+, with inputs, access requirements, examples, text-only writes, revisions, and advisory validation. | Completed |  | [[docs/v0/mcp/tools-reference]] |  | Public | AI |
 | Connect Outline MCP to AI clients | Set up one local Outline MCP connection for Codex, Claude Code, Cursor, Claude Desktop, and other stdio clients. | Completed |  | [[docs/v0/ai/mcp-with-ai-clients]] |  | Public | AI |
 | Manage MCP access for a Space | Choose Off, Read only, or Read &amp; write access for each Space shared with external AI clients. | Completed |  | [[docs/v0/ai/manage-mcp-access-for-a-space]] |  | Public | AI |
 | Troubleshoot Outline MCP | Resolve connection, permission, tool-catalog, file-access, conflict, and preview issues. | Completed |  | [[docs/v0/ai/troubleshoot-outline-mcp]] |  | Public | AI |
