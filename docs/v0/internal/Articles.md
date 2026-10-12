@@ -139,5 +139,7 @@ view:
 | Formatting |  | Pending | [[.unorganized/tables/tbl_2d8943d4-7c17-4e/Untitled 2]] |  |  | Public | Notes |
 | Command Menu | Should explain the command menu in detail. First introduce the command menu to explain what it is, that it allows quick addition of elements. That it can be opened by typing / . Can ref the Elements article&nbsp; | Pending |  | [[docs/v0/notes/command-menu]] |  | Public | Notes |
 | Elements | An article that lists all the elements. <br><br>We will list each element with a brief desctiption, but not more than 2-3 paragraphs per element. We can reference to other articles for more detailed elemetns like the data table for example.&nbsp; | Pending |  | [[docs/v0/notes/elements]] |  | Public | Notes |
+| Create a note from a template | Choose a macOS template and create an independent note with normal Untitled naming. | Completed |  | [[docs/v0/notes/create-a-note-from-a-template]] |  | Public | Notes |
+| Add and edit templates | Configure global and Space templates, edit source notes, reload entries, and grant folder access. | Completed |  | [[docs/v0/advanced/add-and-edit-templates]] |  | Public | Advanced |
 <!-- /outline:block -->
 

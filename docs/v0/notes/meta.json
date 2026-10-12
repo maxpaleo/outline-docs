@@ -1,7 +1,11 @@
 {
   "label": "Notes",
-  "order": ["link-to-notes"],
+  "order": [
+    "link-to-notes",
+    "create-a-note-from-a-template"
+  ],
   "labels": {
-    "link-to-notes": "Link to notes"
+    "link-to-notes": "Link to notes",
+    "create-a-note-from-a-template": "Create a note from a template"
   }
 }

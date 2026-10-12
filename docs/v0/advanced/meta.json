@@ -1,9 +1,11 @@
 {
   "label": "Advanced",
   "order": [
-    "configuration"
+    "configuration",
+    "add-and-edit-templates"
   ],
   "labels": {
-    "configuration": "Configure a Space with space.json"
+    "configuration": "Configure a Space with space.json",
+    "add-and-edit-templates": "Add and edit templates"
   }
 }
