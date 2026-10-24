@@ -2,29 +2,22 @@
   "attachmentsDir": "Attachments",
   "order": [
     "intro",
+    "get-started",
     "notes",
-    "advanced",
-    "ai",
-    "mcp",
-    "excalidraw",
-    "resource-items",
     "spaces",
-    "terminal",
-    "workflows"
+    "ai",
+    "advanced"
   ],
   "labels": {
     "intro": "Introduction",
+    "get-started": "Get Started",
     "notes": "Notes",
-    "advanced": "Advanced",
-    "ai": "AI",
-    "excalidraw": "Excalidraw",
-    "resource-items": "Resource Items",
     "spaces": "Spaces",
-    "terminal": "Terminal",
-    "workflows": "Workflows",
-    "mcp": "MCP"
+    "ai": "AI",
+    "advanced": "Advanced"
   },
   "hidden": [
-    "internal"
+    "internal",
+    "workflows"
   ]
 }

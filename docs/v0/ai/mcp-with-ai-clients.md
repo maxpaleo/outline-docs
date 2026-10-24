@@ -1,10 +1,11 @@
 ---
+title: "Connect Outline MCP to AI clients"
 created: 2026-08-18T00:01:39+02:00
 updated: 2026-10-11T18:14:34.558Z
 ---
 Connect Outline MCP once to let Codex, Claude Code, Cursor, or another compatible AI client work with the Spaces you approve. The connection runs locally on your Mac and does not open a network port.
 
-Outline's built-in AI Chat is configured automatically. Follow this guide only when connecting an external client.
+Outline's built-in AI Chat does not need an MCP connection. To use it, [set up AI Chat](/docs/v0/ai/set-up-ai-chat). Follow this guide when connecting an external client.
 
 ## Before you begin
 
@@ -65,7 +66,7 @@ See [Cursor MCP documentation](https://cursor.com/docs/mcp) for project-specific
 
 ## Claude Desktop and other clients
 
-Clients that support local stdio MCP servers commonly accept an `mcpServers` JSON entry. Replace the example `command` with the actual executable path from an Outline setup command:
+Claude Desktop supports local MCP servers in its desktop app. For Claude Desktop or another client that supports local stdio MCP servers, add an `mcpServers` JSON entry. Replace the example `command` with the actual executable path from an Outline setup command:
 
 ```json
 {
@@ -79,7 +80,7 @@ Clients that support local stdio MCP servers commonly accept an `mcpServers` JSO
 }
 ```
 
-Add this entry using your client's MCP settings or configuration file, then restart or reconnect the client. The exact configuration location depends on the client.
+Add this entry using your client's MCP settings or configuration file, then restart or reconnect the client. The exact configuration location depends on the client. For Claude Desktop, see [its local MCP guide](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop).
 
 Outline only copies setup commands. It never changes another app's configuration. The managed executable path stays the same across tools updates. If you previously configured a command inside `Outline Notes.app`, replace it with the copied managed command.
 
@@ -113,8 +114,8 @@ The file tools require **Outline tools 0.0.2 or later**. Update Outline to a ver
 
 ## Related articles
 
-- [MCP tools reference](/docs/v0/mcp/tools-reference)
-- [Manage MCP access for a Space](/docs/v0/ai/manage-mcp-access-for-a-space)
-- [Troubleshoot Outline MCP](/docs/v0/ai/troubleshoot-outline-mcp)
+- [MCP tools reference](/docs/v0/advanced/mcp-tools-reference)
+- [Manage MCP access for a Space](/docs/v0/advanced/manage-mcp-access-for-a-space)
+- [Troubleshoot Outline MCP](/docs/v0/advanced/troubleshoot-outline-mcp)
 - [About the Outline MCP server](/docs/v0/ai/mcp-server)
 

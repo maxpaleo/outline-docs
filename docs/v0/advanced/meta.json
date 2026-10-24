@@ -2,10 +2,24 @@
   "label": "Advanced",
   "order": [
     "configuration",
-    "add-and-edit-templates"
+    "choose-where-attachments-are-saved",
+    "manage-file-visibility",
+    "configure-resource-items",
+    "add-and-edit-templates",
+    "view-and-edit-note-frontmatter",
+    "manage-mcp-access-for-a-space",
+    "troubleshoot-outline-mcp",
+    "mcp-tools-reference"
   ],
   "labels": {
-    "configuration": "Configure a Space with space.json",
-    "add-and-edit-templates": "Add and edit templates"
+    "configuration": "space.json",
+    "choose-where-attachments-are-saved": "Attachment locations",
+    "manage-file-visibility": "File visibility rules",
+    "configure-resource-items": "Configure resource items",
+    "add-and-edit-templates": "Template configuration",
+    "view-and-edit-note-frontmatter": "Frontmatter",
+    "manage-mcp-access-for-a-space": "MCP access",
+    "troubleshoot-outline-mcp": "Troubleshoot MCP",
+    "mcp-tools-reference": "MCP tools reference"
   }
 }

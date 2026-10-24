@@ -1,41 +1,28 @@
 ---
+title: "Add skills to AI Chat"
 created: 2026-08-16T22:22:52.000Z
 updated: 2026-08-28T17:57:20.691Z
 ---
-# Add skills to AI Chat
+Skills give an AI agent instructions for a specific task. You can add a skill stored in your Space to an Outline Chat or Terminal message.
 
-If you keep agent skills in a Space, you can make their skill files available from the Chat composer. This works with skills you use in tools such as Codex, Claude Code, or Cursor.
+## Use a skill
 
-## Add a skills folder
+1. Select **+** in the Chat or Terminal composer.
+2. Open your configured **Skills** resource group and select a skill.
+3. Add your request, then send it.
 
-Open the Space’s resource discovery configuration and add a file-backed resource group:
+A Space can expose its own skill files through resource discovery. For example, a group can show Markdown files from `.my-resources/skills`. The exact folder and group name depend on your Space's configuration.
 
-```json
-{
-  "id": "shared-skills",
-  "title": "Skills",
-  "description": "Skills available in this Space.",
-  "paths": [".my-resources/skills/*.md"],
-  "tags": ["kind:skill"],
-  "enabled": true
-}
-```
-
-
-
-<!-- outline:block id="img_8895f451-6cd" type="image" version="1" assetId="Attachments/adding-skills.png" src="Attachments/adding-skills.png" alt="adding-skills.png" -->
-![adding-skills.png](Attachments/adding-skills.png)
+<!-- outline:block id="img_94541083-f4b" type="image" version="1" assetId="Attachments/skill-discovery 1.png" src="Attachments/skill-discovery 1.png" alt="skill-discovery 1.png" -->
+![skill-discovery 1.png](<Attachments/skill-discovery 1.png>)
 <!-- /outline:block -->
 
-The screenshot above uses `.my-resources/skills/*.md`. If your skills are stored elsewhere, update the `paths` array with matching patterns such as `.agents/skills/*/SKILL.md`, `.agents/skills/*.md`, `.codex/skills/*/SKILL.md`, `.claude/skills/*/SKILL.md`, or `.cursor/skills/*/SKILL.md`.
+## Codex Skills
 
-For more options, see [[docs/v0/resource-items/configure-resource-items]].
+When the Codex provider is enabled, its available skills appear in a separate **Codex Skills** group in Chat and Terminal. Selecting one adds its `$skill-name` reference. You can show or hide this group with the `providers.codexSkills.enabled` setting in [Space configuration](</docs/v0/advanced/configuration>).
 
----
+## Related articles
 
-> ### Codex Skills
->
-> When enabled, skills supplied by the Codex provider are automatically available in the Chat and Terminal composers.
->
-> You can show or hide this group with the `providers.codexSkills.enabled` preference in `.outline/space.json`.
+- [Configure resource items](</docs/v0/advanced/configure-resource-items>)
+- [Add context and reusable content](</docs/v0/ai/add-context-and-reusable-content>)
 

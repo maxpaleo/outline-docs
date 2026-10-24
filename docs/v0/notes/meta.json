@@ -1,11 +1,23 @@
 {
   "label": "Notes",
   "order": [
+    "writing-and-formatting",
+    "elements",
+    "tables",
     "link-to-notes",
-    "create-a-note-from-a-template"
+    "create-a-note-from-a-template",
+    "export-a-note-as-a-pdf",
+    "excalidraw",
+    "the-menu-bar"
   ],
   "labels": {
+    "writing-and-formatting": "Writing and formatting",
+    "elements": "Elements",
+    "tables": "Tables",
     "link-to-notes": "Link to notes",
-    "create-a-note-from-a-template": "Create a note from a template"
+    "create-a-note-from-a-template": "Templates",
+    "export-a-note-as-a-pdf": "Export a note as a PDF",
+    "excalidraw": "Excalidraw",
+    "the-menu-bar": "Menu bar"
   }
 }

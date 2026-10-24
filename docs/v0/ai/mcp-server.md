@@ -1,4 +1,5 @@
 ---
+title: "About the Outline MCP server"
 created: 2026-08-18T00:01:39+02:00
 updated: 2026-10-11T18:14:34.558Z
 ---
@@ -29,7 +30,7 @@ Every Space starts with external MCP access set to **Off**.
 - Create folders and UTF-8 text files, including Markdown, Excalidraw, HTML, JSON, and CSV.
 - Update existing text files using their current revision.
 
-These file tools require **Outline tools 0.0.2 or later**. Binary files can be discovered and inspected, but cannot be created or updated through these tools. See [MCP tools reference](/docs/v0/mcp/tools-reference) for all tools and their inputs.
+These file tools require **Outline tools 0.0.2 or later**. Binary files can be discovered and inspected, but cannot be created or updated through these tools. See [MCP tools reference](/docs/v0/advanced/mcp-tools-reference) for all tools and their inputs.
 
 Give **Read &amp; write** access only to clients you trust. Your AI client may still ask for approval before it runs a tool.
 
@@ -67,8 +68,8 @@ Outline tools are installed separately from the app through **Settings > AI > Ou
 
 ## Related articles
 
-- [MCP tools reference](/docs/v0/mcp/tools-reference)
+- [MCP tools reference](/docs/v0/advanced/mcp-tools-reference)
 - [Connect Outline MCP to AI clients](/docs/v0/ai/mcp-with-ai-clients)
-- [Manage MCP access for a Space](/docs/v0/ai/manage-mcp-access-for-a-space)
-- [Troubleshoot Outline MCP](/docs/v0/ai/troubleshoot-outline-mcp)
+- [Manage MCP access for a Space](/docs/v0/advanced/manage-mcp-access-for-a-space)
+- [Troubleshoot Outline MCP](/docs/v0/advanced/troubleshoot-outline-mcp)
 

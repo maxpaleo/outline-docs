@@ -14,23 +14,11 @@ When you open Outline for the first time and no Spaces have been added yet, Outl
 
 Outline does not automatically move Spaces from an existing installation. For example, an older **Main** Space stored on your Mac remains local and will not appear on another Mac through iCloud.
 
-## Choose where to save a new Space
+## Choose storage for a new Space
 
-1. Select **New space**.
-2. Enter a name.
-3. Under **Save in**, choose a location:
+Open the Space selector, select **New Space**, then leave **Type** on **Create new**. Under **Location**, choose **iCloud** or **This Mac**. iCloud is available when iCloud Drive is ready on your Mac. For all creation and switching steps, see [Create and manage Spaces](/docs/v0/spaces/create-and-manage-spaces).
 
-  *iCloud Drive** makes the Space available on Macs signed in to your Apple Account with iCloud Drive enabled. This is the default choice.
-  **On This Mac** stores the Space only in Outline's local app folder on the current Mac.
-4. Select **Create space**.
-
-If you choose iCloud Drive and it is unavailable, Outline asks you to try again or choose **On This Mac**. It does not silently create the Space in a different location.
-
-## Add an existing folder
-
-Select **New space from folder** to use a folder you already manage. Outline keeps the folder in its current location and does not move it into or out of iCloud.
-
-If the folder is already in iCloud Drive, its availability on other devices follows your iCloud Drive settings. You may need to grant Outline access to the folder on each Mac.
+If you use an existing folder, Outline keeps it where it is. A folder already in iCloud Drive follows your iCloud Drive settings; you may need to grant Outline access on each Mac.
 
 ## Open an iCloud Space on another Mac
 

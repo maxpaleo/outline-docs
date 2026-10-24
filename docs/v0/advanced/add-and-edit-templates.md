@@ -56,7 +56,7 @@ This property belongs inside the existing JSON object:
 
 Space paths start from the Space's root folder, rather than `.outline`. They must stay inside that Space; absolute paths and `..` are not supported.
 
-For help finding and editing the file, see [[docs/v0/advanced/configuration|Configure a Space with space.json]].
+For help finding and editing the file, see [Configure a Space with space.json](/docs/v0/advanced/configuration).
 
 ## Edit or remove a template
 
@@ -78,4 +78,4 @@ Use literal `.md` file paths. Web addresses, `~`, environment variables, and wil
 
 ## Related articles
 
-- [[docs/v0/notes/create-a-note-from-a-template|Create a note from a template]]
+- [Create a note from a template](/docs/v0/notes/create-a-note-from-a-template)

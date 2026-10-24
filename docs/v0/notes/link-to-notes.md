@@ -43,6 +43,6 @@ If the linked note includes a description, hover over the badge to view it. A li
 
 ## Related articles
 
-- [[docs/v0/ai/starting-an-ai-chat|Start an AI chat]]
-- [[docs/v0/elements/using-tables|Using tables]]
+- [Start an AI chat](/docs/v0/ai/starting-an-ai-chat)
+- [Tables](/docs/v0/notes/tables)
 

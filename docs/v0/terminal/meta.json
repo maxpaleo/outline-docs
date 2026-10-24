@@ -1,9 +1,0 @@
-{
-  "label": "Terminal",
-  "order": [
-    "ai-in-the-terminal"
-  ],
-  "labels": {
-    "ai-in-the-terminal": "Use AI in the Terminal"
-  }
-}

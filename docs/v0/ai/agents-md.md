@@ -14,7 +14,7 @@ Outline may update only this managed section when the app changes. You can add y
 
 Outline hides `AGENTS.md` files from the sidebar by default so they do not distract from your notes. They remain available to AI agents.
 
-To display them temporarily, open **Settings** at the bottom of the sidebar and select **Show Hidden Items**. To keep them visible, open the Space selector, select **Advanced**, then uncheck the `AGENTS.md` patterns under **Hidden from Sidebar**.
+To display them temporarily, open **Settings** at the bottom of the sidebar and select **Show Hidden Items**. To keep them visible, open the Space selector, select **Advanced → Sidebar Visibility**, then uncheck the `AGENTS.md` patterns.
 
 ## Turn off automatic updates
 
@@ -31,3 +31,8 @@ You can also set `agentGuide.managed` to `false` in `.outline/space.json`:
 ```
 
 Turning this setting off removes only Outline's managed section. Your `AGENTS.md` file remains in place, and your custom instructions remain unchanged. The Space continues to work normally, but AI agents may have less information about Outline-specific features.
+
+## Related articles
+
+- [Working with AI](/docs/v0/ai/working-with-ai)
+- [Configure a Space with space.json](/docs/v0/advanced/configuration)

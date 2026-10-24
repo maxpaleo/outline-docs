@@ -1,10 +1,11 @@
 ---
+title: "Configure a Space with space.json"
 description: Understand and edit the advanced settings stored in a Space's configuration file.
 updated: 2026-09-01T15:22:41.040Z
 ---
 Every Space contains a `.outline/space.json` file. Outline uses this JSON file to identify the Space and store settings that travel with it.
 
-Most common settings can be changed in **Space selector → Advanced → Settings**. Edit `space.json` directly when you need to configure options that are not available in the app.
+Most common settings can be changed in **Space selector → Advanced → Space Settings**. Edit `space.json` directly when you need to configure options that are not available in the app.
 
 ## Before editing the file
 
@@ -50,17 +51,13 @@ Avoid changing `schemaVersion`, `id`, or the timestamps manually.
 - `hidden` removes matching content from the sidebar but keeps it indexed and available to search, links, tabs, and agents.
 - `excluded` prevents matching content from being indexed, searched, or used by agents.
 
-Use exact paths for individual files and folders. Outline updates these rules when you select **Hide** or **Unhide** from an item's context menu and carries any remaining exact rule with an item when it is moved or renamed in Outline.
-
-Patterns support `*` within one path segment, `?` for one character, and `**` as a complete segment spanning multiple folders. Use them when the same rule should apply to several locations.
+Use exact paths for individual files and folders. Patterns support `*` within one path segment, `?` for one character, and `**` as a complete segment spanning multiple folders.
 
 An excluded or hidden parent folder is a boundary for its entire subtree. A visible child does not appear while its parent is hidden. An exact visible rule can override a hidden pattern for the item itself when its parent folders are visible. Excluded rules take precedence over hidden and visible rules.
 
 New Spaces hide `Attachments`, `AGENTS.md`, `.outline`, `TABLE_NOTES`, and `.unorganized` content by default. They exclude common repository metadata such as `.git`, `.obsidian`, and `.DS_Store`. `TABLE_NOTES` and `.unorganized` must remain either `visible` or `hidden` so Outline can continue to manage their content.
 
-Excluded content is not displayed in the in-app visibility menu. Use exclusions only for content Outline should not index or discover.
-
-For the in-app controls, see [[docs/v0/spaces/hide-files-and-folders-from-the-sidebar]].
+For the in-app controls, see [Manage file visibility](/docs/v0/advanced/manage-file-visibility). To hide or unhide one item in the sidebar, see [Hide files and folders from the sidebar](/docs/v0/spaces/hide-files-and-folders-from-the-sidebar).
 
 ## Attachments
 
@@ -76,7 +73,7 @@ For the in-app controls, see [[docs/v0/spaces/hide-files-and-folders-from-the-si
 
 Use a folder path relative to the Space. Do not use an absolute path, `..`, glob characters, or a path inside `.outline`. Changing this value does not move existing attachments or add a file visibility rule.
 
-For the in-app controls, see [[docs/v0/spaces/choose-where-attachments-are-saved]].
+For the in-app controls, see [Choose where attachments are saved](/docs/v0/advanced/choose-where-attachments-are-saved).
 
 ## Resource discovery
 
@@ -97,7 +94,7 @@ For the in-app controls, see [[docs/v0/spaces/choose-where-attachments-are-saved
 }
 ```
 
-Each `id` must be unique. See [[docs/v0/resource-items/configure-resource-items]] for the complete resource discovery workflow.
+Each `id` must be unique. See [Configure resource items](/docs/v0/advanced/configure-resource-items) for the complete resource discovery workflow.
 
 ## Providers
 
@@ -142,7 +139,7 @@ Provider availability still depends on what is installed on the current device.
 }
 ```
 
-Set it to `false` if you want to maintain all agent guidance yourself. See [[docs/v0/ai/agents-md]] for more about `AGENTS.md`.
+Set it to `false` if you want to maintain all agent guidance yourself. See [AGENTS.md](/docs/v0/ai/agents-md) for more about `AGENTS.md`.
 
 ## Editor
 
@@ -160,4 +157,4 @@ Set it to `false` if you want to maintain all agent guidance yourself. See [[doc
 - `showFrontmatter` controls whether YAML frontmatter is shown in the editor.
 - `frontmatterSyntaxTheme` accepts `muted` or `default` and controls how that frontmatter is styled.
 
-See [[docs/v0/mcp/view-and-edit-note-frontmatter]] for more about working with frontmatter.
+See [View and edit note frontmatter](/docs/v0/advanced/view-and-edit-note-frontmatter) for more about working with frontmatter.

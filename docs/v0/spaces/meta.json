@@ -1,13 +1,15 @@
 {
   "label": "Spaces",
   "order": [
+    "create-and-manage-spaces",
     "icloud",
-    "choose-where-attachments-are-saved",
+    "lock-and-unlock-notes",
     "hide-files-and-folders-from-the-sidebar"
   ],
   "labels": {
+    "create-and-manage-spaces": "Spaces",
     "icloud": "iCloud",
-    "choose-where-attachments-are-saved": "Choose where attachments are saved",
-    "hide-files-and-folders-from-the-sidebar": "Hide files and folders from the sidebar"
+    "lock-and-unlock-notes": "Locking notes",
+    "hide-files-and-folders-from-the-sidebar": "Hide files and folders"
   }
 }

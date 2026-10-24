@@ -15,6 +15,10 @@ Templates let you start notes with content you use often, such as a checklist or
 3. Select a template, then select **Create**.
 4. Rename the new note using its focused title, then start editing.
 
+<!-- outline:block id="img_05d443d4-d01" type="image" version="1" assetId="Attachments/from-template.png" src="Attachments/from-template.png" alt="from-template.png" -->
+![from-template.png](Attachments/from-template.png)
+<!-- /outline:block -->
+
 **Global** templates are available in every Space on this Mac. **This space** templates are available only in the current Space.
 
 Outline names the new note `Untitled`, or adds a number such as `Untitled 1` if that name is already taken. Selecting a template does not create a note until you choose **Create**.
@@ -29,4 +33,5 @@ Links, images, and attachment references keep their original destinations. Refer
 
 ## Related articles
 
-- [[docs/v0/advanced/add-and-edit-templates|Add and edit templates]]
+- [Add and edit templates](</docs/v0/advanced/add-and-edit-templates>)
+
