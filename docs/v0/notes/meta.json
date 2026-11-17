@@ -3,6 +3,7 @@
   "order": [
     "writing-and-formatting",
     "elements",
+    "edit-images",
     "tables",
     "link-to-notes",
     "create-a-note-from-a-template",
@@ -18,6 +19,7 @@
     "create-a-note-from-a-template": "Templates",
     "export-a-note-as-a-pdf": "Export a note as a PDF",
     "excalidraw": "Excalidraw",
-    "the-menu-bar": "Menu bar"
+    "the-menu-bar": "Menu bar",
+    "edit-images": "Edit images"
   }
 }

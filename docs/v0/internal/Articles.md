@@ -146,6 +146,7 @@ view:
 | Formatting | Archived source; its floating-toolbar screenshot and content are in Writing and formatting. | Archived | [[.unorganized/tables/tbl_2d8943d4-7c17-4e/Untitled 2]] |  |  | Public | Notes |
 | Writing and formatting | Merges Formatting and Command Menu, retaining both image blocks and adding editor and Markdown guidance. | Completed | [[.unorganized/tables/tbl_1f9fdb27-70a/Untitled 1]] | [[docs/v0/notes/writing-and-formatting]] |  | Public | Notes |
 | Command Menu | Archived source; slash-menu steps and screenshot are in Writing and formatting. Old route retired. | Archived |  |  |  | Public | Notes |
+| Edit images | macOS annotation workflow drafted; replace the editor screenshot placeholder before publication. | In Progress |  | [[docs/v0/notes/edit-images]] |  | Public | Notes |
 | Elements | Expanded into Core/More sections with element descriptions, native Markdown examples, and the retained code-block screenshot. | Completed |  | [[docs/v0/notes/elements]] |  | Public | Notes |
 | Create a note from a template | Template flow retained; capture the template-selection dialog described in the article before push. | In Progress |  | [[docs/v0/notes/create-a-note-from-a-template]] |  | Public | Notes |
 | Add and edit templates | Configure global and Space templates, edit source notes, reload entries, and grant folder access. | Completed |  | [[docs/v0/advanced/add-and-edit-templates]] |  | Public | Advanced |

@@ -43,7 +43,7 @@ Use **Link** for a web address and **Note Link** to point to another note. See [
 
 ## Image
 
-Add a picture to the note.
+Add a picture to the note. On macOS, you can add arrows, shapes, text, and drawings to local PNG and JPEG images. See [Edit images](</docs/v0/notes/edit-images>).
 
 <!-- outline:block id="img_cafc9012-782" type="image" version="1" assetId="Attachments/bathroom-renovation.png" src="Attachments/bathroom-renovation.png" alt="bathroom-renovation.png" -->
 ![bathroom-renovation.png](Attachments/bathroom-renovation.png)
